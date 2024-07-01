@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.character-portrait {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.character-details {
+  margin-top: 10px;
+}
+
+.character-details input,
+.character-details textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.character-details button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.character-details button:hover {
+  background-color: #45a049;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-portrait img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
